@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai4</title>
+</head>
+<body>
+
+</body>
+<script>
+  // ham kiem tra ky tu so
+  function kienTraSo(number){
+    let check = false;
+    if(number === parseInt(number)){
+      check = true;
+    }
+    return check;
+  }
+  let number =  +prompt("nhap so:");
+  let result = kienTraSo(number);
+  if(result == true){
+    alert("la so");
+  }else{
+    alert("ko la so");
+  }
+</script>
+</html>

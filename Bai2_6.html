@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai6</title>
+</head>
+<body>
+
+</body>
+<script>
+  // ham kiem tra so nguyen duong
+  function checkPositive(number){
+    if(number > 0){
+      return true;
+    }else{
+      return false;
+    }
+  }
+  let number = +prompt("nhap so nguyen:");
+  let result = checkPositive(number);
+  if(result === true){
+    alert("so duong");
+  }else{
+    alert("so am");
+  }
+</script>
+</html>

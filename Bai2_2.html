@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinh chu vi va dien tich hinh tron</title>
+</head>
+<body>
+
+</body>
+<script>
+  // ham tinh dien tich cua hinh tron
+  function dienTich(r){
+    alert("dien tich hinh tron la:" + (r*r*3.14));
+  }
+  // ham tinh chu vi hinh tron
+  function chuVi(r){
+    alert("chu vi hinh tron la:" + (2*3.14*r));
+  }
+  // goi ham
+  let r = +prompt("nhap ban kinh duong tron:");
+  let r_float = parseFloat(r);
+  dienTich(r);
+  chuVi(r);
+</script>
+</html>
